@@ -1,0 +1,1 @@
+This folder should contain QC code to validate and verify production SDTM datasets.
