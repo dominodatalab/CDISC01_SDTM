@@ -20,7 +20,7 @@
 * 
 * Output files:                                                   
 * - /mnt/data/SDTMBLIND/relrec.sas7bdat
-* - /mnt/data/SDTMBLIND/relrec.sas7bdat
+* - /mnt/data/SDTMUNBLIND/relrec.sas7bdat
 *
 * Macros: 
 * - NA

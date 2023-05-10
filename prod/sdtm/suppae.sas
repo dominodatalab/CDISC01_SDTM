@@ -20,7 +20,7 @@
 * 
 * Output files:                                                   
 * - /mnt/data/SDTMBLIND/suppae.sas7bdat
-* - /mnt/data/SDTMBLIND/suppae.sas7bdat
+* - /mnt/data/SDTMUNBLIND/suppae.sas7bdat
 *
 * Macros: 
 * - NA

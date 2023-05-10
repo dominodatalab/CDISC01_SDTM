@@ -20,7 +20,7 @@
 * 
 * Output files:                                                   
 * - /mnt/data/SDTMBLIND/sc.sas7bdat
-* - /mnt/data/SDTMBLIND/sc.sas7bdat
+* - /mnt/data/SDTMUNBLIND/sc.sas7bdat
 *
 * Macros: 
 * - NA
