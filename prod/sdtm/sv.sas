@@ -36,7 +36,7 @@
 
 %include "!DOMINO_WORKING_DIR/domino.sas";
 
-libname xpt xport '/mnt/data/SDTM/XPT/sv.xpt'; * substitute in the filename;
+libname xpt xport '/mnt/data/CDISC01_SDTM/sv.xpt'; * substitute in the filename;
 
 proc copy in=xpt out=SDTMBLND;
 run;
