@@ -9,7 +9,7 @@
 * Compound             : VeraMedimol
 * Study                : Pilot01
 * Analysis             : Interim
-* Program              : convers.sas
+* Program              : lb.sas
 * ____________________________________________________________________________
 * DESCRIPTION 
 *
