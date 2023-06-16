@@ -16,27 +16,27 @@
 * The purpose of this program is to convert the raw XPT data to SDTM.
 *                                                                   
 * Input files:
-* - /mnt/data/SDTM/XPT/ae.xpt
-* - /mnt/data/SDTM/XPT/cm.xpt
-* - /mnt/data/SDTM/XPT/dm.xpt
-* - /mnt/data/SDTM/XPT/ex.xpt
-* - /mnt/data/SDTM/XPT/lb.xpt
-* - /mnt/data/SDTM/XPT/mh.xpt
-* - /mnt/data/SDTM/XPT/qs.xpt
-* - /mnt/data/SDTM/XPT/relrec.xpt
-* - /mnt/data/SDTM/XPT/sc.xpt
-* - /mnt/data/SDTM/XPT/se.xpt
-* - /mnt/data/SDTM/XPT/suppae.xpt
-* - /mnt/data/SDTM/XPT/suppdm.xpt
-* - /mnt/data/SDTM/XPT/suppds.xpt
-* - /mnt/data/SDTM/XPT/supplb.xpt
-* - /mnt/data/SDTM/XPT/sv.xpt
-* - /mnt/data/SDTM/XPT/ta.xpt
-* - /mnt/data/SDTM/XPT/te.xpt
-* - /mnt/data/SDTM/XPT/ti.xpt
-* - /mnt/data/SDTM/XPT/ts.xpt
-* - /mnt/data/SDTM/XPT/tv.xpt
-* - /mnt/data/SDTM/XPT/vs.xpt
+* - /mnt/imported/data/CDISC01_RAW/ae.xpt
+* - /mnt/imported/data/CDISC01_RAW/cm.xpt
+* - /mnt/imported/data/CDISC01_RAW/dm.xpt
+* - /mnt/imported/data/CDISC01_RAW/ex.xpt
+* - /mnt/imported/data/CDISC01_RAW/lb.xpt
+* - /mnt/imported/data/CDISC01_RAW/mh.xpt
+* - /mnt/imported/data/CDISC01_RAW/qs.xpt
+* - /mnt/imported/data/CDISC01_RAW/relrec.xpt
+* - /mnt/imported/data/CDISC01_RAW/sc.xpt
+* - /mnt/imported/data/CDISC01_RAW/se.xpt
+* - /mnt/imported/data/CDISC01_RAW/suppae.xpt
+* - /mnt/imported/data/CDISC01_RAW/suppdm.xpt
+* - /mnt/imported/data/CDISC01_RAW/suppds.xpt
+* - /mnt/imported/data/CDISC01_RAW/supplb.xpt
+* - /mnt/imported/data/CDISC01_RAW/sv.xpt
+* - /mnt/imported/data/CDISC01_RAW/ta.xpt
+* - /mnt/imported/data/CDISC01_RAW/te.xpt
+* - /mnt/imported/data/CDISC01_RAW/ti.xpt
+* - /mnt/imported/data/CDISC01_RAW/ts.xpt
+* - /mnt/imported/data/CDISC01_RAW/tv.xpt
+* - /mnt/imported/data/CDISC01_RAW/vs.xpt
 * 
 * Output files:                                                   
 * - /mnt/data/SDTM/ae.sas7bdat
@@ -79,7 +79,7 @@
 proc lua restart;
 submit;
 -- Get list of files
-local raw_files = io.popen("ls /mnt/data/CDISC01_SDTM/*.xpt");
+local raw_files = io.popen("ls /mnt/imported/data/CDISC01_RAW/*.xpt");
 
 for file in raw_files:lines() do
 	sas.submit([[
