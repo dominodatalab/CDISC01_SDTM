@@ -16,7 +16,7 @@
 * The purpose of this program is to convert the raw XPT data to SDTM.
 *                                                                   
 * Input files:
-* - /mnt/data/SDTM/XPT/qs.xpt
+* - /mnt/imported/data/CDISC01_RAW/qs.xpt
 * 
 * Output files:                                                   
 * - /mnt/data/SDTMBLIND/qs.sas7bdat
@@ -36,7 +36,7 @@
 
 %include "!DOMINO_WORKING_DIR/domino.sas";
 
-libname xpt xport '/mnt/data/CDISC01_SDTM/qs.xpt'; * substitute in the filename;
+libname xpt xport '/mnt/imported/data/CDISC01_RAW/qs.xpt'; * substitute in the filename;
 
 proc copy in=xpt out=SDTMBLND;
 run;
