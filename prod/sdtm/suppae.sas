@@ -16,7 +16,7 @@
 * The purpose of this program is to convert the raw XPT data to SDTM.
 *                                                                   
 * Input files:
-* - /mnt/data/SDTM/XPT/suppae.xpt
+* - /mnt/imported/data/CDISC01_RAW/suppae.xpt
 * 
 * Output files:                                                   
 * - /mnt/data/SDTMBLIND/suppae.sas7bdat
@@ -36,7 +36,7 @@
 
 %include "!DOMINO_WORKING_DIR/domino.sas";
 
-libname xpt xport '/mnt/data/CDISC01_SDTM/suppae.xpt'; * substitute in the filename;
+libname xpt xport '/mnt/imported/data/CDISC01_RAW/suppae.xpt'; * substitute in the filename;
 
 proc copy in=xpt out=SDTMBLND;
 run;
