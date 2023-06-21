@@ -1,6 +1,5 @@
-# SCE_SDTM_TEMPLATE
-
-This repo contains the folder structure to template a study wide SDTM project.
+# Protocol CDISC01 SDTM repo
+This repo contains the code used to produce the SDTM datasets for protocol CDISC01.
 
 # Directory structure
 
