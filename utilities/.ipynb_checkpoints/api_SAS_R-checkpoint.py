@@ -9,4 +9,8 @@ domino = Domino(
     host=os.environ["DOMINO_API_HOST"],
 )
 
-domino.job_start(command="/mnt/code/prod/sdtm/ae.sas", environment_id="64c976672b981732df07d477", title="Job ran from API")
+# SAS JOB
+domino.job_start(command="/mnt/code/prod/sdtm/ae.sas", environment_id="64c976672b981732df07d477", title="SAS executed via API")
+
+# R JOB
+domino.job_start(command="/mnt/code/utilities/refresh.R", environment_id="64c978892b981732df07d4a5", title="R executed via API")
