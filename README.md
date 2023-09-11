@@ -1,7 +1,7 @@
 # Protocol CDISC01 SDTM repo
 This repo contains the code used to produce the SDTM datasets for protocol CDISC01.
 
-# Directory structure
+# Directory structures
 
 The programming is created in a typical clinical trial folder structure, where the production (prod) and qc programs have independent directory trees.
 
