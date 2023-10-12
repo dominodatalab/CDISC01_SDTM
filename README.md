@@ -17,7 +17,7 @@ repo
 ├───qc
 │   └───sdtm
 └───utilities
-        init_datasets.py
+        init_datasets_sdtm.py
 └───share
     └───macros
 ```
