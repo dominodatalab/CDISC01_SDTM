@@ -1,5 +1,6 @@
 from domino import Domino
 import os
+from domino.data_sources import DataSourceClient
 
 domino = Domino(f"{os.environ['DOMINO_PROJECT_OWNER']}/{os.environ['DOMINO_PROJECT_NAME']}")
 
@@ -19,3 +20,11 @@ CURRENT = set(d['datasetName'] for d in domino.datasets_list(project_id=os.envir
 for key in set(REQUIRED.keys()).difference(CURRENT):
     # Make them
     domino.datasets_create(key, REQUIRED[key])
+
+from domino.data_sources import DataSourceClient
+
+# instantiate a client and fetch the datasource instance
+object_store = DataSourceClient().get_datasource("S3")
+
+# list objects available in the datasource
+objects = object_store.list_objects()
