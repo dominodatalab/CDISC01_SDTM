@@ -11,7 +11,7 @@ curl -X POST "https://lsdemo.domino-eval.com/remotefs/v1/snapshots" \
        "volumeId": "7ad74260-7182-4c9e-9784-83e54eb44f94"
      }'
 
-# 3) Take snapshot of CDISC01_UNSDTMBLIND NetApp Volume
+# 3) Take snapshot of CDISC01_SDTMUNBLIND NetApp Volume
 curl -X POST "https://lsdemo.domino-eval.com/remotefs/v1/snapshots" \
      -H "Content-Type: application/json" \
      -H "Authorization: Bearer $TOKEN" \
