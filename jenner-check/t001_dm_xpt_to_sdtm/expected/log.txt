@@ -1,0 +1,41 @@
+Jenner 0.1.0 (Unlicensed - limited to 100 observations)
+Get a license at https://jenneranalytics.com/license
+
+NOTE: Option OBS changed to 100.
+NOTE: Library SDTMBLND assigned path=./sdtmblind.
+NOTE: Library SDTMUNBD assigned path=./sdtmunblind.
+NOTE: DATA x.dm
+
+NOTE: Processing inline DATALINES (12 lines)
+
+NOTE: Read 12 rows from DATALINES.
+NOTE: Wrote x.dm (12 rows, 8 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: XPORT library X closed.
+NOTE: Library X cleared.
+NOTE: DATA SDTMBLND.dm
+
+
+NOTE: Read 12 rows from xpt.dm.
+NOTE: Wrote SDTMBLND.dm (12 rows, 8 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA SDTMUNBD.dm
+
+
+NOTE: Read 12 rows from xpt.dm.
+NOTE: Wrote SDTMUNBD.dm (12 rows, 8 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: XPORT library XPT closed.
+NOTE: Library XPT cleared.
+NOTE: PROC CONTENTS data=SDTMBLND.dm
+
+NOTE: PROC CONTENTS completed: 12 observations, 8 variables
+NOTE: PROC PRINT data=SDTMBLND.dm
+
+NOTE: PROC PRINT completed: 12 observations printed, 8 variables

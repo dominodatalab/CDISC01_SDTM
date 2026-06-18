@@ -1,0 +1,35 @@
+
+PROC CONTENTS
+-------------------------------------------------------------------------------
+
+Data Set Name: SDTMBLND.ts
+Observations:  10
+Variables:     6
+
+Variables (in alphabetical order):
+
+  #  Variable  Type    Len  Format  Label
+---  --------  ----  -----  ------  -----
+  1  domain    Char      2          
+  2  studyid   Char      8          
+  3  tsparm    Char     40          
+  4  tsparmcd  Char      8          
+  5  tsseq      Num      8          
+  6  tsval     Char     40          
+
+-------------------------------------------------------------------------------
+
+
+  Obs  studyid  domain  tsseq  tsparmcd                           tsparm           tsval
+-----  -------  ------  -----  --------  -------------------------------  --------------
+    1  CDISC01  TS          1  ADAPT     Adaptive Design                  N
+    2  CDISC01  TS          2  AGEMIN    Planned Minimum Age of Subjects  P50Y
+    3  CDISC01  TS          3  LENGTH    Trial Length                     P26W
+    4  CDISC01  TS          4  PLANSUB   Planned Number of Subjects       306
+    5  CDISC01  TS          5  RANDOM    Trial is Randomized              Y
+    6  CDISC01  TS          6  SEXPOP    Sex of Participants              BOTH
+    7  CDISC01  TS          7  STYPE     Study Type                       INTERVENTIONAL
+    8  CDISC01  TS          8  TBLIND    Trial Blinding Schema            DOUBLE BLIND
+    9  CDISC01  TS          9  TCNTRL    Control Type                     PLACEBO
+   10  CDISC01  TS         10  TPHASE    Trial Phase Classification       PHASE II TRIAL
+

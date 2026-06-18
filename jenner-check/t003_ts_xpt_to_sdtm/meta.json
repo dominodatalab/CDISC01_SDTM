@@ -1,0 +1,8 @@
+{
+  "bundle": "t003_ts_xpt_to_sdtm",
+  "source_file": "prod/sdtm/ts.sas",
+  "source_blob_sha": "710e458e264eb67c6a7acec2b418ebd9be9ac82a",
+  "source_commit": "9fda65348aa92e2a6bdda4b13bc98e965878ba2f",
+  "tier": "real_data",
+  "notes": "Trial Summary (TS) trial-design converter from prod/sdtm/ts.sas. Self-contained: writes a 10-row TS parameter sample to a v5 XPORT file, then imports via libname xport into SDTMBLND/SDTMUNBD. Adapted: domino.sas %include -> autoexec; raw /mnt XPT -> inline sample."
+}

@@ -1,0 +1,52 @@
+
+PROC CONTENTS
+-------------------------------------------------------------------------------
+
+Data Set Name: SDTMBLND.vs
+Observations:  12
+Variables:     8
+
+Variables (in alphabetical order):
+
+  #  Variable  Type    Len  Format  Label
+---  --------  ----  -----  ------  -----
+  1  domain    Char      2          
+  2  studyid   Char      8          
+  3  usubjid   Char     12          
+  4  visitnum   Num      8          
+  5  vsstresn   Num      8          
+  6  vsstresu  Char     12          
+  7  vstest    Char     30          
+  8  vstestcd  Char      8          
+
+-------------------------------------------------------------------------------
+
+
+  Obs  studyid  domain      usubjid  vstestcd                    vstest  vsstresn   vsstresu  visitnum
+-----  -------  ------  -----------  --------  ------------------------  --------  ---------  --------
+    1  CDISC01  VS      01-701-1015  SYSBP     Systolic Blood Pressure        120  mmHg              1
+    2  CDISC01  VS      01-701-1015  DIABP     Diastolic Blood Pressure        80  mmHg              1
+    3  CDISC01  VS      01-701-1015  PULSE     Pulse Rate                      72  beats/min         1
+    4  CDISC01  VS      01-701-1023  SYSBP     Systolic Blood Pressure        135  mmHg              1
+    5  CDISC01  VS      01-701-1023  DIABP     Diastolic Blood Pressure        88  mmHg              1
+    6  CDISC01  VS      01-701-1023  PULSE     Pulse Rate                      80  beats/min         1
+    7  CDISC01  VS      01-701-1028  SYSBP     Systolic Blood Pressure        118  mmHg              1
+    8  CDISC01  VS      01-701-1028  DIABP     Diastolic Blood Pressure        76  mmHg              1
+    9  CDISC01  VS      01-701-1028  PULSE     Pulse Rate                      68  beats/min         1
+   10  CDISC01  VS      01-701-1033  SYSBP     Systolic Blood Pressure        142  mmHg              1
+   11  CDISC01  VS      01-701-1033  TEMP      Temperature                   36.7  C                 1
+   12  CDISC01  VS      01-701-1034  WEIGHT    Weight                        78.5  kg                1
+
+                                                  The MEANS Procedure
+
+                                              Analysis Variable : vsstresn
+
+        VSTESTCD          N Obs           Mean        Minimum        Maximum
+        --------------------------------------------------------------------
+        DIABP                 3           81.3           76.0           88.0
+        PULSE                 3           73.3           68.0           80.0
+        SYSBP                 4          128.8          118.0          142.0
+        TEMP                  1           36.7           36.7           36.7
+        WEIGHT                1           78.5           78.5           78.5
+        --------------------------------------------------------------------
+
