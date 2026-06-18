@@ -1,0 +1,39 @@
+
+PROC CONTENTS
+-------------------------------------------------------------------------------
+
+Data Set Name: SDTMBLND.dm
+Observations:  12
+Variables:     8
+
+Variables (in alphabetical order):
+
+  #  Variable  Type    Len  Format  Label
+---  --------  ----  -----  ------  -----
+  1  age        Num      8          
+  2  ageu      Char      8          
+  3  arm       Char      4          
+  4  domain    Char      2          
+  5  race      Char      8          
+  6  sex       Char      1          
+  7  studyid   Char      8          
+  8  usubjid   Char     12          
+
+-------------------------------------------------------------------------------
+
+
+  Obs  studyid  domain      usubjid   arm  age   ageu  sex   race
+-----  -------  ------  -----------  ----  ---  -----  ---  -----
+    1  CDISC01  DM      01-701-1015  ARMA   56  YEARS  F    WHITE
+    2  CDISC01  DM      01-701-1023  ARMB   64  YEARS  M    WHITE
+    3  CDISC01  DM      01-701-1028  ARMA   71  YEARS  M    WHITE
+    4  CDISC01  DM      01-701-1033  ARMB   74  YEARS  M    WHITE
+    5  CDISC01  DM      01-701-1034  ARMA   77  YEARS  F    WHITE
+    6  CDISC01  DM      01-701-1047  ARMB   85  YEARS  F    WHITE
+    7  CDISC01  DM      01-701-1057  ARMA   68  YEARS  F    BLACK
+    8  CDISC01  DM      01-701-1097  ARMB   81  YEARS  F    WHITE
+    9  CDISC01  DM      01-701-1111  ARMA   52  YEARS  M    WHITE
+   10  CDISC01  DM      01-701-1115  ARMB   79  YEARS  F    ASIAN
+   11  CDISC01  DM      01-701-1118  ARMA   86  YEARS  M    WHITE
+   12  CDISC01  DM      01-701-1130  ARMB   73  YEARS  F    WHITE
+

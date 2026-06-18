@@ -1,0 +1,8 @@
+{
+  "bundle": "t002_vs_xpt_to_sdtm",
+  "source_file": "prod/sdtm/vs.sas",
+  "source_blob_sha": "39269455b3878810d1332d07e695ca7aa61bb769",
+  "source_commit": "9fda65348aa92e2a6bdda4b13bc98e965878ba2f",
+  "tier": "real_data",
+  "notes": "Vital Signs (VS) findings converter from prod/sdtm/vs.sas, plus a PROC MEANS summary of VSSTRESN by VSTESTCD. Self-contained: writes a 12-row VS sample (BP/pulse/temp/weight) to a v5 XPORT file, then imports via libname xport into SDTMBLND/SDTMUNBD. Adapted: domino.sas %include -> autoexec; raw /mnt XPT -> inline sample."
+}

@@ -1,0 +1,8 @@
+{
+  "bundle": "t001_dm_xpt_to_sdtm",
+  "source_file": "prod/sdtm/dm.sas",
+  "source_blob_sha": "607f9159a991b10bd141c6a0b9ac0387283b06a6",
+  "source_commit": "9fda65348aa92e2a6bdda4b13bc98e965878ba2f",
+  "tier": "real_data",
+  "notes": "Demographics (DM) converter from prod/sdtm/dm.sas. Self-contained: writes a 12-row CDISC Pilot01-style DM sample to a v5 XPORT file, then imports it via libname xport into SDTMBLND/SDTMUNBD exactly as dm.sas does. Adapted: domino.sas %include -> autoexec defining the SDTM libs; raw /mnt XPT -> inline sample."
+}

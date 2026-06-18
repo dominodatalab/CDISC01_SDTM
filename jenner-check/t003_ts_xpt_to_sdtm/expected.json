@@ -1,0 +1,22 @@
+{
+  "_captured_at": "2026-06-18T00:48:32.101528+00:00",
+  "_captured_run_id": "r_019ed832e11479229ea5c5279183dd20",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote SDTMBLND.ts (10 rows, 6 columns).",
+    "NOTE: Wrote SDTMUNBD.ts (10 rows, 6 columns).",
+    "NOTE: PROC CONTENTS completed: 10 observations, 6 variables",
+    "NOTE: PROC PRINT completed: 10 observations printed, 6 variables"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR",
+    "member(s) copied",
+    "not found"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}
